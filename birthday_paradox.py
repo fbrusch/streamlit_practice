@@ -52,7 +52,7 @@ st.write(estimated_prob)
 
 import matplotlib.pyplot as plt
 
-labels = ["Collision", "Not Collision"]
+labels = ["Collision", "No Collision"]
 sizes = [st.session_state.experiments.count(True),
          st.session_state.experiments.count(False)]
 
